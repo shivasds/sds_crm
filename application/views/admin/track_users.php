@@ -234,7 +234,7 @@ $timeFormat = sprintf('%02d:%02d:%02d', $hours, $mins, $secs);
 			<!--/sidebar-menu-->
 				<div class="sidebar-menu">
 					<header class="logo"><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-					<a href="#" class="sidebar-icon"> <span class="fa fa-bars"></span> </a>  <span id="logo"> <h1>FBP</h1></span> 
+					<a href="#" class="sidebar-icon"> <span class="fa fa-bars"></span> </a>  <span id="logo"> <h1>SDS</h1></span> 
 					<!--<img id="logo" src="" alt="Logo"/>--> 
 				  </a> 
 				</header>

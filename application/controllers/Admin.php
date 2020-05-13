@@ -329,7 +329,7 @@ class Admin extends CI_Controller {
 				'email2'=>$email2,
 				'project_id'=>$project,
 				'lead_source_id'=>$lead_source,
-				'leadid'=> trim("FBP-".sprintf("%'.011d",$lead_ids).PHP_EOL),
+				'leadid'=> trim("SDS-".sprintf("%'.011d",$lead_ids).PHP_EOL),
 				'user_id'=>$user_name,
 				'due_date'=>$due_date,
 				'broker_id'=>$sub_broker,
@@ -353,7 +353,7 @@ class Admin extends CI_Controller {
 				'email2'=>$email2,
 				'project_id'=>$project,
 				'lead_source_id'=>$lead_source,
-				'leadid'=> trim("FBP-".sprintf("%'.011d",$lead_ids).PHP_EOL),
+				'leadid'=> trim("SDS-".sprintf("%'.011d",$lead_ids).PHP_EOL),
 				'user_id'=>$user_name,
 				'due_date'=>$due_date,
 				'broker_id'=>$sub_broker,
@@ -2093,7 +2093,7 @@ $customer_req = array(
 				$email1Key = array_search('Email', $keyArray);
 				$email2Key = array_search('Email 2', $keyArray);
 				$leadIdKey = array_search('Lead Id', $keyArray);
-				//$leadIdKey = "FBP - ".sprintf("%'.011d",$lead_ids).PHP_EOL;
+				//$leadIdKey = "SDS - ".sprintf("%'.011d",$lead_ids).PHP_EOL;
 				$notesKey = array_search('Notes', $keyArray);
 				$highestRow = $worksheet->getHighestRow();
 				$newCallbacks = array();
@@ -2124,7 +2124,7 @@ $customer_req = array(
 						'contact_no2'=>trim($contact_no2),
 						'email1'=>trim($email1),
 						'email2'=>trim($email2),
-						'leadid'=>trim("FBP-".sprintf("%'.011d",$lead_ids++).PHP_EOL),
+						'leadid'=>trim("SDS-".sprintf("%'.011d",$lead_ids++).PHP_EOL),
 						'notes'=>trim($notes),
 					);
 					// print_r($data);exit;
